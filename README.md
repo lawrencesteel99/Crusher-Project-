@@ -1,5 +1,5 @@
 # CrusherProject
-Mining Equipment Downtime Analysis in Python
+#Mining Equipment Downtime Analysis in Python
 import pandas as pd
 
 data = {
@@ -34,4 +34,5 @@ data = {
 "Machine":["Crusher 1","Crusher 2","Crusher 3","Crusher 1","Crusher 2","Crusher 3","Crusher 1","Crusher 2"],
 "Downtime_hours":[5,2,4,6,1,3,7,2],
 "Failure_reason":["Bearing","Belt","Motor","Bearing","Belt","Overheat","Bearing","Belt"],
-"Shift":["Day","Night","Day","Night","Day"
+"Shift":["Day","Night","Day","Night","Day"]
+}
